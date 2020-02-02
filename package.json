@@ -1,5 +1,5 @@
 {
-  "name": "dancestudio-sync",
+  "name": "dancestudio-import",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -10,9 +10,8 @@
   "author": "Jorge Barnaby <jorge.barnaby@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "cookie": "^0.4.0",
-    "dotenv": "^8.2.0",
-    "got": "^10.4.0"
+    "cheerio": "1.0.0-rc.3",
+    "dotenv": "8.2.0",
+    "got": "10.4.0"
   }
 }
