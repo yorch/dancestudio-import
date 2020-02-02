@@ -19,6 +19,9 @@ const loginRequest = () => request.post('login.php', {
     followRedirect: false
 });
 
+// TODO: Make it a singleton, so it can manage its own state and keep the session cookies around
+// Also it could detect when the session is no longer valid and re-try
+
 const login = async () => {
     const { headers } = await loginRequest();
     const setCookiesHeader = headers['set-cookie'];
