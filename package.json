@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "1.0.0-rc.12",
-    "dotenv": "16.0.3",
+    "dotenv": "16.1.4",
     "got": "11.8.2"
   }
 }
